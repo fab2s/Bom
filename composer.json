@@ -1,0 +1,40 @@
+{
+    "name" : "fab2s/bom",
+    "description" : "Purely static zero dependencies BOM Helper to handle unicode BOMs",
+    "type" : "library",
+    "authors" : [{
+        "name" : "Fabrice de Stefanis"
+    }],
+    "keywords" : [
+        "PHP",
+        "Simple",
+        "Helper",
+        "Utf8",
+        "BOM",
+        "UTF-8",
+        "UTF-16",
+        "UTF-32",
+        "Byte-order-mark",
+        "little-endian",
+        "big-endian"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "~7.0|~8.0"
+    },
+    "autoload": {
+        "classmap": [
+          "src"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "fab2s\\Tests\\": "tests/"
+        }
+    }
+}
