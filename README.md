@@ -20,7 +20,9 @@ composer require "fab2s/bom"
 
 ## In practice
 
-Bom is minimalistic, it only exposes four methods. It supports `UTF-8|16|32` BOMs in both [_Little_](https://en.wikipedia.org/wiki/Endianness#Little) and [_Big_](https://en.wikipedia.org/wiki/Endianness#Big) [Endianness](https://en.wikipedia.org/wiki/Endianness)
+`Bom` supports `UTF-8|16|32` BOMs in both [_Little_](https://en.wikipedia.org/wiki/Endianness#Little) and [_Big_](https://en.wikipedia.org/wiki/Endianness#Big) [Endianness](https://en.wikipedia.org/wiki/Endianness)
+
+`Bom` is minimalistic, it only exposes five methods
 
 ```php
 // get Bom
@@ -37,6 +39,10 @@ $bom = Bom::getEncodingBom($encoding); // returns null if the encoding is not su
 
 // get the list of BOMs as an array with corresponding encodings as indexes
 $boms = Bom::getBoms(); // returns an associatiove array of encodings and correesponding BOMs
+
+foreach ($boms as $encoding => $bom) {
+    // do something ...
+}
 ```
 
 ## Requirements
