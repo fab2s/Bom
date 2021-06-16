@@ -1,6 +1,6 @@
 # Bom
 
-[![Build Status](https://travis-ci.org/fab2s/Bom.svg?branch=master)](https://travis-ci.org/fab2s/Bom) [![Total Downloads](https://poser.pugx.org/fab2s/bom/downloads)](//packagist.org/packages/fab2s/bom) [![Monthly Downloads](https://poser.pugx.org/fab2s/bom/d/monthly)](//packagist.org/packages/fab2s/bom) [![Latest Stable Version](https://poser.pugx.org/fab2s/bom/v/stable)](https://packagist.org/packages/fab2s/bom) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fab2s/Bom/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fab2s/Bom/?branch=master) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) [![License](https://poser.pugx.org/fab2s/bom/license)](https://packagist.org/packages/fab2s/bom)
+[![Build Status](https://travis-ci.com/fab2s/Bom.svg?branch=master)](https://travis-ci.com/fab2s/Bom) [![Total Downloads](https://poser.pugx.org/fab2s/bom/downloads)](//packagist.org/packages/fab2s/bom) [![Monthly Downloads](https://poser.pugx.org/fab2s/bom/d/monthly)](//packagist.org/packages/fab2s/bom) [![Latest Stable Version](https://poser.pugx.org/fab2s/bom/v/stable)](https://packagist.org/packages/fab2s/bom) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/fab2s/Bom/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/fab2s/Bom/?branch=master) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com) [![License](https://poser.pugx.org/fab2s/bom/license)](https://packagist.org/packages/fab2s/bom)
 
 A purely static zero dependencies [byte Order Mark](https://en.wikipedia.org/wiki/Byte_order_mark) Helper to handle unicode BOMs
 
@@ -49,7 +49,7 @@ foreach ($boms as $encoding => $bom) {
 
 ## Requirements
 
-`Bom` is tested against php 7.1, 7.2, 7.3 and 7.4
+`Bom` is tested against php 7.1, 7.2, 7.3, 7.4 and 8.0
 
 ## Contributing
 
